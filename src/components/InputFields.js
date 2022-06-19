@@ -113,7 +113,7 @@ const InputFields = () => {
               <DatePicker
                 InputProps={{
                   style: {
-                    width: "129%",
+                    width: "100%",
                     boxShadow: "0px 0px 3px 1px rgba(0, 0, 0, 0.1)",
                     backgroundColor: "#ffffff",
                   },
