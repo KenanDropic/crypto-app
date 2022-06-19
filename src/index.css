@@ -28,9 +28,9 @@ body {
   width: 100%;
   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
-.data {
+/* .data {
   position: relative;
-}
+} */
 img {
   width: 100%;
 }
@@ -46,6 +46,7 @@ h1 {
 .container {
   width: 700px;
   max-width: 100%;
+  padding: 1rem;
 }
 .input-data {
   width: 100%;
@@ -196,6 +197,11 @@ label {
     font-size: 30px;
   }
 }
+@media (max-width:700px) {
+  .container{
+    width: 600px;
+  }
+}
 @media (max-width: 580px) {
   img {
     width: 60%;
@@ -238,6 +244,14 @@ label {
   .data label {
     margin-bottom: 6px;
   }
+}
+@media (max-width: 390px) {
+  .pageContainer h1{
+    font-size: 18px;
+  }
+ .container{
+  width: 300px;
+ } 
 }
 
 .data input {
