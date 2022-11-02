@@ -108,7 +108,7 @@ const InputFields = () => {
       <div className="input-data">
         <div className="data">
           <label htmlFor="datePicker">Date(of conversion) :</label>
-          <div className="calendar">
+          <div className="calendar" style={{ width: "100%" }}>
             <LocalizationProvider dateAdapter={AdapterDateFns}>
               <DatePicker
                 InputProps={{
