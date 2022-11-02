@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import DatePicker from "@mui/lab/DatePicker";
 import { TextField } from "@mui/material";
-import LocalizationProvider from "@mui/lab/LocalizationProvider";
+import { LocalizationProvider } from "@mui/x-date-pickers";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import Currencies from "./Currencies";
 import ToCurrencies from "./ToCurrencies";
